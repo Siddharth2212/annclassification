@@ -21,6 +21,7 @@ with open('scaler.pkl', 'rb') as file:
 
 ## streamlit app
 st.title('Customer Churn PRediction')
+st.text('Welcome to the Customer Churn Prediction App, a deep learning application built to predict the likelihood of customer churn using an artificial neural network (ANN). This project marks the start of my exciting journey into AI!')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
