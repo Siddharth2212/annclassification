@@ -20,7 +20,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('Customer Churn PRediction')
+st.title('Customer Churn Prediction')
 st.text('Welcome to the Customer Churn Prediction App, a deep learning application built to predict the likelihood of customer churn using an artificial neural network (ANN). This project marks the start of my exciting journey into AI!')
 
 # User input
